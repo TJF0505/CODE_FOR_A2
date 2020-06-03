@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+
+<head>
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Favicon-->
+	<link rel="shortcut icon" href="static/img/fav.png">
+	<!-- Author Meta -->
+	<meta name="author" content="CodePixar">
+	<!-- Meta Description -->
+	<meta name="description" content="">
+	<!-- Meta Keyword -->
+	<meta name="keywords" content="">
+	<!-- meta character set -->
+	<meta charset="UTF-8">
+	<!-- Site Title -->
+	<title>Wit-coin</title>
+	<!--
+		CSS
+		============================================= -->
+	<link rel="stylesheet" href="static/css/linearicons.css">
+	<link rel="stylesheet" href="static/css/font-awesome.min.css">
+	<link rel="stylesheet" href="static/css/themify-icons.css">
+	<link rel="stylesheet" href="static/css/bootstrap.css">
+	<link rel="stylesheet" href="static/css/owl.carousel.css">
+	<link rel="stylesheet" href="static/css/nice-select.css">
+	<link rel="stylesheet" href="static/css/nouislider.min.css">
+	<link rel="stylesheet" href="static/css/ion.rangeSlider.css" />
+	<link rel="stylesheet" href="static/css/ion.rangeSlider.skinFlat.css" />
+	<link rel="stylesheet" href="static/css/magnific-popup.css">
+	<link rel="stylesheet" href="static/css/main.css">
+</head>
+
+<body>
+
+<!-- Start Header Area -->
+<header class="header_area sticky-header">
+	<div class="main_menu">
+		<nav class="navbar navbar-expand-lg navbar-light main_box">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<a class="navbar-brand logo_h" href="/index"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+					<ul class="nav navbar-nav menu_nav ml-auto">
+						<li class="nav-item submenu"><a class="nav-link" href="/index">Home</a></li>
+						<li class="nav-item submenu active"><a class="nav-link" href="/checkout">Checkout</a></li>
+						<li class="nav-item submenu "><a  class="nav-link" href="/login" >login</a>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="nav-item">
+							<button class="search"><span class="lnr lnr-magnifier" id="search"></span></button>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+	<div class="search_input" id="search_input_box">
+		<div class="container">
+			<form class="d-flex justify-content-between">
+				<input type="text" class="form-control" id="search_input" placeholder="Search Here">
+				<button type="submit" class="btn"></button>
+				<span class="lnr lnr-cross" id="close_search" title="Close Search"></span>
+			</form>
+		</div>
+	</div>
+</header>
+<!-- End Header Area -->
+
+	<!-- start banner Area -->
+	<section class="banner-area section_gap">
+		<div class="container">
+			<div class="row fullscreen align-items-center justify-content-start">
+				<div class="col-lg-12 align-items-left justify-content-between">
+					<form name= "login">
+						<div class="imgcontainer">
+						</div>
+					<div class="container section_gap">
+						<label for="uname"><b>Username</b></label>
+						<input type="text" placeholder="Enter Username" name="uname" required>
+					
+						<label for="psw"><b>Password</b></label>
+						<input id="id1" type="password" max= "100" placeholder="Enter Password" name="psw" required>
+					
+						<button name="submit" type="submit" >Login</button>
+						<label>
+						  <input type="checkbox" checked="checked" name="remember"> Remember me
+						  <p id="demo"></p>
+                         
+						</label>
+					  </div>
+					
+					  <div class="container" style="background-color:#70122f">
+						<button type="button" class="cancelbtn">Cancel</button>
+						<span class="psw">Forgot <a href="#">password?</a></span>
+					  </div>
+					  <style> /* Bordered form */
+						form [name="login"]{
+						  border: 3px solid #f1f1f1;
+						}
+						
+						/* Full-width inputs */
+						input[type=text], input[type=password] {
+						  width: 100%;
+						  padding: 12px 20px;
+						  margin: 8px 0;
+						  display: inline-block;
+						  border: 1px solid #ccc;
+						  box-sizing: border-box;
+						}
+						
+						/* Set a style for all buttons */
+						button [name="submit"]{
+						  background-color: #4CAF50;
+						  color: white;
+						  padding: 14px 20px;
+						  margin: 8px 0;
+						  border: none;
+						  cursor: pointer;
+						  width: 100%;
+						}
+						
+						/* Add a hover effect for buttons */
+						button:hover {
+						  opacity: 0.8;
+						}
+						
+						/* Extra style for the cancel button (red) */
+						.cancelbtn {
+						  width: auto;
+						  padding: 10px 18px;
+						  background-color: #f44336;
+						}
+						
+						/* Center the avatar image inside this container */
+						.imgcontainer {
+						  text-align: center;
+						  margin: 24px 0 12px 0;
+						}
+						
+						
+						/* Add padding to containers */
+						.container {
+						  padding: 16px;
+						}
+						
+						/* The "Forgot password" text */
+						span.psw {
+						  float: right;
+						  padding-top: 16px;
+						}
+						
+						/* Change styles for span and cancel button on extra small screens */
+						@media screen and (max-width: 300px) {
+						  span.psw {
+							display: block;
+							float: none;
+						  }
+						  .cancelbtn {
+							width: 100%;
+						  }
+						}
+						</style>
+					</form>
+				</section> 
+					<!--Start Checkout Area -->
+				<section class="section_gap">
+					<div class="col-lg-12 align-items-left justify-content-between">
+						<form name ="Credentials" id="Credentials" action="{{url_for('insert_value')}}" method="POST">
+							<div class="imgcontainer">
+							</div>
+						<div class="container section_gap" >
+							<label for="Fname"><b> Enter your First Name</b></label>
+							<input type="text" placeholder="Enter First Name" name="Fname" id="Fname"onblur="fnc()" required>
+							<p id ="validFirstName"></p>
+							<label for="Lname"><b>Enter your Last Name</b></label>
+							<input type="text" placeholder="Enter Last Name " name="Lname"onblur="lnc()" id="Lname"required>
+							<p id ="validLastName"></p>
+							<label for="CardNumber"><b>Credit card number</b></label>
+							<input type="text" placeholder="Enter Credit Card number" name="CardNumber" onblur="CardC()"id ="CardNumber" required>
+							<p id ="validCreditCard"></p>
+							<label for="CVV"><b>CVV</b></label>
+							<input type="string" placeholder="Enter CVV" name="CVV" id="CVV" onblur="CvC()"required>
+							<p id ="validCreditVerification"></p>
+							<label for="Email"><b>Email</b></label>
+							<input type="string" placeholder="Enter Email" name="Email" onblur="Emac()"required>
+							<p id ="validemail"></p>
+							<button type="button" onclick="validateCredentials()">submit</button>
+							<label>
+							  <input type="checkbox" checked="checked" name="remember"> Remember me
+							</label>
+						  </div>
+						
+						  <div class="container" style="background-color:#70122f">
+							<button type="button" class="cancelbtn">Cancel</button>
+							<span class="psw">Forgot <a href="#">password?</a></span>
+						  </div>
+						  <style> /* Bordered form */
+							form {
+							  border: 3px solid #f1f1f1 
+							  
+							}
+							
+							/* Full-width inputs */
+							input[type=text], input[type=password],input[type=string] {
+							  width: 100%;
+							  padding: 12px 20px;
+							  margin: 8px 0;
+							  display: inline-block;
+							  box-sizing: border-box;
+							}
+							
+							/* Set a style for all buttons */
+							button {
+							  background-color: #4CAF50;
+							  color: white;
+							  padding: 14px 20px;
+							  margin: 8px 0;
+							  border: none;
+							  cursor: pointer;
+							  width: 100%;
+							}
+							
+							/* Add a hover effect for buttons */
+							button:hover {
+							  opacity: 0.8;
+							}
+							
+							/* Extra style for the cancel button (red) */
+							.cancelbtn {
+							  width: auto;
+							  padding: 10px 18px;
+							  background-color: #f44336;
+							}
+							
+							/* Center the avatar image inside this container */
+							.imgcontainer {
+							  text-align: center;
+							  margin: 24px 0 12px 0;
+							}
+							
+							
+							/* Add padding to containers */
+							.container {
+							  padding: 16px;
+							}
+							
+							/* The "Forgot password" text */
+							span.psw {
+							  float: right;
+							  padding-top: 16px;
+							}
+							
+							/* Change styles for span and cancel button on extra small screens */
+							@media screen and (max-width: 300px) {
+							  span.psw {
+								display: block;
+								float: none;
+							  }
+							  .cancelbtn {
+								width: 100%;
+							  }
+							}</style>
+						</form>
+						<script>
+							var FN,LN,EMC,CCD,CVV,CrCaD,LowerC,UpperC,Num,ec,AC;
+							FN = false;
+							LN = false;
+							EMC =false;
+							CCD = false;
+							CVV = false; 
+							email= document.getElementById("email").value;
+							Fname = document.getElementById("Fname").value;
+							Lname= document.getElementById("Lname").value;
+							CrCaD = document.getElementById("CardNumber").value;
+							VerifCode =document.getElementById("CVV").value;
+							LowerC= /[a-z]/g;
+							UpperC=/[A-Z]/g;
+							Num =/[0-9]/g;
+							ec= ".com";
+							AC = "@";
+							function fnc(){
+								if (Fname.match(LowerC)&&Fname.match(UpperC) && Fname.length>=8){
+									FN= true;
+							  		document.getElementById("validFirstName").innerHTML="valid";
+								}else{
+							  		document.getElementById("validFirstName").innerHTML="invalid";
+								}
+							}
+							function lnc(){
+								
+								if ( Lname.match(LowerC)&&Lname.match(UpperC) && Lname.length>=8 ){
+								LN= true;
+								document.getElementById("validLastName").innerHTML="valid";
+								}else{
+							  	document.getElementById("validLastName").innerHTML="invalid";
+								}
+							}
+							function CardC(){
+								if (CrCaD.match(LowerC), CrCaD.match(UpperC)){
+									document.getElementById("validpwc").innerHTML="invalid";
+								}
+								else if(CrCaD.length= 16 && CrCaD.match(Num) ){
+									CCD = true; 
+									document.getElementById("validCreditCard").innerHTML="valid";
+								}else{
+							  document.getElementById("validCreditCard").innerHTML="invalid";
+								}
+							}
+							function Emac(){
+								if (email.match(AC) && email.match(ec)){
+									EMC = true; 
+									document.getElementById("validemail").innerHTML="valid";
+								}else{
+							  document.getElementById("validemail").innerHTML="invalid";
+								}
+							}
+							function CvC(){
+								if (VerifCode.match(LowerC), VerifCode.match(UpperC)){
+									document.getElementById("validCreditVerification").innerHTML="invalid";
+								}
+								else if(VerifCode.length= 3 && VerifCode.match(Num) ){
+									CVV = true; 
+									document.getElementById("validCreditVerification").innerHTML="valid";
+								}else{
+							  document.getElementById("validCreditVerification").innerHTML="invalid";
+								}
+							}
+							function validateCredentials(){
+								if (LN,FN,EMC,CVV,CCD == false){
+									document.getElementById("Credentials").reset();
+									}
+								else {
+									document.getElementById("Credentials").submit();
+									}
+								}
+							</script>
+							<div class="col-lg-7">
+								<div class="banner-img">
+									<img class="img-fluid" src="img/banner/banner-img.png" alt="">
+								</div>
+							</div>
+						</div>
+						<!-- single-slide -->
+						<div class="row single-slide">
+							<div class="col-lg-7">
+								<div class="banner-img">
+									<img class="img-fluid" src="img/banner/banner-img.png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section class="banner-area section_gap">
+	<!-- End banner Area -->
+
+
+	<!-- start footer Area -->
+<footer class="footer-area section_gap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3  col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <h6>About Us</h6>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore
+                        magna aliqua.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4  col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <h6>Newsletter</h6>
+                    <p>Stay update with our latest</p>
+                    <div class="" id="mc_embed_signup">
+
+                        <form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                         method="get" class="form-inline">
+
+                            <div class="d-flex flex-row">
+
+                                <input class="form-control" name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '"
+                                 required="" type="email">
+
+
+                                <button class="click-btn btn btn-default"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+                                <div style="position: absolute; left: -5000px;">
+                                    <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+                                </div>
+                            </div>
+                            <div class="info"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3  col-md-6 col-sm-6">
+                <div class="single-footer-widget mail-chimp">
+                    <h6 class="mb-20">Instragram Feed</h6>
+                    <ul class="instafeed d-flex flex-wrap">
+                        <li><img src="img/i1.jpg" alt=""></li>
+                        <li><img src="img/i2.jpg" alt=""></li>
+                        <li><img src="img/i3.jpg" alt=""></li>
+                        <li><img src="img/i4.jpg" alt=""></li>
+                        <li><img src="img/i5.jpg" alt=""></li>
+                        <li><img src="img/i6.jpg" alt=""></li>
+                        <li><img src="img/i7.jpg" alt=""></li>
+                        <li><img src="img/i8.jpg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <h6>Follow Us</h6>
+                    <p>Let us be social</p>
+                    <div class="footer-social d-flex align-items-center">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                        <a href="#"><i class="fa fa-behance"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom d-flex justify-content-center align-items-center flex-wrap">
+</p>
+        </div>
+	</div>
+</footer>
+<!-- End footer Area -->
+
+	
+
+	
+
+	<script src="static/js/vendor/jquery-2.2.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+	 crossorigin="anonymous"></script>
+	<script src="static/js/vendor/bootstrap.min.js"></script>
+	<script src="static/js/jquery.ajaxchimp.min.js"></script>
+	<script src="static/js/jquery.nice-select.min.js"></script>
+	<script src="static/js/jquery.sticky.js"></script>
+	<script src="static/js/nouislider.min.js"></script>
+	<script src="static/js/countdown.js"></script>
+	<script src="static/js/jquery.magnific-popup.min.js"></script>
+	<script src="static/js/owl.carousel.min.js"></script>
+	<!--gmaps Js-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+	<script src="static/js/gmaps.min.js"></script>
+	<script src="static/vendor/chartjs/Chart.bundle.min.js"></script>
+	<script src="static/js/main.js"></script>
+	<script type = "text/javascript">		
+	$(document).ready(function() {
+
+		$.getJSON('/api/get_all_data', function(data) {
+			console.log(JSON.parse(data));
+			
+		});});	 
+	   
+	  /* var c = 0;
+        var window_size = 10;
+        var data_obj = {
+                labels: [0],
+                datasets: [{
+                    label: [""],
+                    fill: false,
+                    backgroundColor: "rgba(255,146,146,0.4)",
+                    borderColor: "rgba(255,146,146,0.4)",
+					data: [10,20,30,40,50]}]
+					},
+				
+					
+				
+					
+							
+        var option = {showLines: true};
+        var canvas = document.getElementById('recent-rep-chart');
+        var legend = Chart.defaults.global.legend.position = 'right';
+        var legend = Chart.defaults.global.legend.labels.padding = 40;
+        var myLineChart = Chart.Line(canvas,{data:data_obj, options:option, legend:legend});
+		var myBarChart = new Chart(ctx, {
+    		type: 'bar',
+    		data: data: {
+    		datasets: [{
+       	 	barPercentage: 0.5,
+        	barThickness: 6,
+        	maxBarThickness: 8,
+        	minBarLength: 2,
+        	data: [10, 20, 30, 40, 50, 60, 70]
+    }],
+    options: options
+	
+}});
+		var canvas = document.getElementById(myBarChart);*/
+		var data_obj = {
+                labels: [0],
+                datasets: [{
+                    label: ["1", "2", "3", "4", "5", "6", "7"],
+                    fill: false,
+                    backgroundColor: "rgba(255,146,146,0.4)",
+                    borderColor: "rgba(255,146,146,0.4)",
+                    data: [10, 20, 30, 40, 50, 60, 70]
+                }]
+        };
+
+        var option = {showLines: true};
+        var canvas = document.getElementById('myBarChart');
+        var legend = Chart.defaults.global.legend.position = 'right';
+        var legend = Chart.defaults.global.legend.labels.padding = 40;
+        var myLineChart = Chart.Line(canvas,{data:data_obj, options:option, legend:legend});
+		</script>
+	   
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+							<script>
+							var Un,LN,EMC,CCD,CVV;
+							FN = false;
+							LN = false;
+							EMC =false;
+							CCD = false;
+							CVV = false; 
+							email= document.getElementById("email");
+							Fname = document.getElementById("");
+							Lname= document.getElementById(");
+							CrCaD = document.getElementById("");
+							VerifCode =document.getElementById(");
+							LowerC= /[a-z]/g;
+							UpperC=/[A-Z]/g;
+							Num =/[0-9]/g;
+							ec= ".com"
+							AC = "@";
+							function fnc(){
+								if (Fname.match(LowerC)&&Fname.match(UpperC) && Fname.length>=8){
+									FN= true;
+							  		document.getElementById("validFirstName").innerHTML="valid";
+								}else{
+							  		document.getElementById("validFirstName").innerHTML="invalid";
+								}
+							}
+							function lnc(){
+								
+								if ( Lname.match(LowerC)&&Lname.match(UpperC) && Lname.length>=8 ){
+								LN= true;
+								document.getElementById("validLastName").innerHTML="valid";
+								}else{
+							  	document.getElementById("validLastName").innerHTML="invalid";
+								}
+							}
+							function CardC(){
+								if (CrCaD.match(LowerC), CrCaD.match(UpperC)){
+									document.getElementById("validpwc").innerHTML="invalid";
+								}
+								else if(CrCaD.length= 16 && CrCaD.match(Num) ){
+									CCD = true; 
+									document.getElementById("validCreditCard").innerHTML="valid";
+								}else{
+							  document.getElementById("validCreditCard").innerHTML="invalid";
+								}
+							}
+							function Emac(){
+								if (email.match(AC) && email.match(ec)){
+									EMC = true; 
+									document.getElementById("validemail").innerHTML="valid";
+								}else{
+							  document.getElementById("validemail").innerHTML="invalid";
+								}
+							}
+							function CvC{
+								if (VerifCode.match(LowerC), VerifCode.match(UpperC)){
+									document.getElementById("validCreditVerification").innerHTML="invalid";
+								}
+								else if(VerifCode.length= 3 && VerifCode.match(Num) ){
+									CVV = true; 
+									document.getElementById("validCreditVerification").innerHTML="valid";
+								}else{
+							  document.getElementById("validCreditVerification").innerHTML="invalid";
+								}
+							}
+							function validateformsignup(){
+								if (LN,FN,EMC,CVV,CCD == false){
+									document.getElementById("Credentials").reset();
+									}
+								else {
+									document.getElementById("Credentials").submit();
+									}
+								}
+							</script>
